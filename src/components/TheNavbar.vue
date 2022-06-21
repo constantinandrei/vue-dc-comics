@@ -37,4 +37,8 @@ a {
     color: black;
     font-weight: bold;
 }
+
+img {
+    width: 80px;
+}
 </style>
