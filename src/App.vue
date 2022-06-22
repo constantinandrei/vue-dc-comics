@@ -3,6 +3,7 @@
     <TheNavbar/>
     <TheJumbo/>
     <TheContent/>
+    <BlueBanner/>
     <TheFooter/>
     <BannerSingup/>
   </div>
@@ -14,6 +15,7 @@ import TheContent from './components/TheContent.vue'
 import TheFooter from './components/TheFooter.vue'
 import BannerSingup from './components/BannerSingup.vue'
 import TheJumbo from './components/TheJumbo.vue'
+import BlueBanner from './components/BlueBanner.vue'
 
 export default {
   name: 'App',
@@ -22,7 +24,8 @@ export default {
     TheContent,
     TheFooter,
     BannerSingup,
-    TheJumbo
+    TheJumbo,
+    BlueBanner
   }
 }
 </script>
