@@ -5,7 +5,7 @@ import App from './App.vue'
 import "bootstrap";
 
 // Importa tutti i css
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './assets/scss/main.scss';
 
 Vue.config.productionTip = false
 
