@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <TheNavbar/>
+    <TheJumbo/>
     <TheContent/>
     <TheFooter/>
     <BannerSingup/>
@@ -12,6 +13,7 @@ import TheNavbar from './components/TheNavbar.vue'
 import TheContent from './components/TheContent.vue'
 import TheFooter from './components/TheFooter.vue'
 import BannerSingup from './components/BannerSingup.vue'
+import TheJumbo from './components/TheJumbo.vue'
 
 export default {
   name: 'App',
@@ -19,7 +21,8 @@ export default {
     TheNavbar,
     TheContent,
     TheFooter,
-    BannerSingup
+    BannerSingup,
+    TheJumbo
   }
 }
 </script>

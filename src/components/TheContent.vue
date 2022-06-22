@@ -1,7 +1,7 @@
 <template>
-    <div class="bg-dark text-white py-5">
+    <div class="text-white py-5">
         <div class="container">
-            <h3>The content goes here</h3>
+           
         </div>
         
     </div>
@@ -13,6 +13,8 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
-div
+<style lang="scss" scoped>
+    .text-white {
+        background-color: #1C1C1C;
+    }
 </style>
